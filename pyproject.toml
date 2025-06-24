@@ -1,0 +1,15 @@
+[project]
+name = "python-vocal-remove"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "demucs (>=4.0.1,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
